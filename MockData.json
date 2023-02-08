@@ -1,0 +1,32 @@
+{
+    "item1": {
+        "name": "Myrasa Multi-Purpose Fried Flour Hot & Spicy (1kg)",
+        "price": "7.80",
+        "description": "Due to stock 2/1 Batch 1 - 180 Batch 2 - 140 Batch 3 - 200",
+        "category": "Sugar and Flour"
+    },
+    "item2": {
+        "name": "MyBlue Key Self-Raising Flour (1kg)",
+        "price": "5.20",
+        "description": "Due to stock 2/1 Batch 1 - 180 Batch 2 - 140 Batch 3 - 200",
+        "category": "Sugar and Flour"
+    },
+    "item3": {
+        "name": "Cap 3 Kambing Glutinous Flour / Tepung Pulut (500g)",
+        "price": "3.40",
+        "description": "Due to stock 2/1 Batch 1 - 180 Batch 2 - 140 Batch 3 - 200",
+        "category": "Sugar and Flour"
+    },
+    "item4": {
+        "name": "Cap 3 Kambing Glutinous Flour / Tepung Pulut (500g)",
+        "price": "11.20",
+        "description": "Due to stock 2/1 Batch 1 - 180 Batch 2 - 140 Batch 3 - 200",
+        "category": "Sugar and Flour"
+    },
+    "item5": {
+        "name": "Cap 3 Kambing Glutinous Flour / Tepung Pulut (500g)",
+        "price": "5.70",
+        "description": "Due to stock 2/1 Batch 1 - 180 Batch 2 - 140 Batch 3 - 200",
+        "category": "Sugar and Flour"
+    }
+}

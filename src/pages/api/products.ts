@@ -1,11 +1,11 @@
 import { prisma } from "../../config/prisma";
 import { authOptions } from "./auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getProducts, getProductsTypes } from "../../../src/types/getProducts";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-  const session = await unstable_getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions);
   if (session) {
     const {
       skip,

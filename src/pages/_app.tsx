@@ -11,7 +11,6 @@ import {
 import { useState } from "react";
 import PageLayout from "../components/PageLayout";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Head from "next/head";
 
 export type CustomAppProps = AppProps & {

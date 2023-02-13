@@ -2,8 +2,6 @@ import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { CustomNextPage } from "../../src/types/CustomNextPage";
 import { Button, Center, Paper } from "@mantine/core";
-import { unstable_getServerSession } from "next-auth/next";
-import { authOptions } from "./api/auth/[...nextauth]";
 
 const Home: CustomNextPage = () => {
   const { data, status } = useSession();
@@ -29,17 +27,5 @@ const Home: CustomNextPage = () => {
 };
 
 Home.requireAuth = false;
-
-// export async function getServerSideProps(context) {
-//   return {
-//     props: {
-//       session: await unstable_getServerSession(
-//         context.req,
-//         context.res,
-//         authOptions
-//       ),
-//     },
-//   };
-// }
 
 export default Home;

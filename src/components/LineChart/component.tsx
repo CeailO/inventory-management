@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
-import { useMantineColorScheme } from "@mantine/core";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 import type { ProductsWithDate } from "../../../src/types/getProducts";
 import { DateTime } from "luxon";
